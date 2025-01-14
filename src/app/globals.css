@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #d9f4ff;
+  --foreground: #000000;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hubungiKami{
+  font-family: 'Hubugi', sans-serif;
+  background-color: #1b1b1b80;
+  color: #ffffff;
+}
+.heroTitle{
+  font-family: 'Hubugi', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+  /* background-color: #33333338; */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 20px;
+}
+.heroSubtitle{
+  font-family: 'Hubugi', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  /* padding: 20px; */
+}
