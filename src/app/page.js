@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div> */}
         <a
-          href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+          href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
           className="hubungiKami text-white px-4 py-2 rounded-md"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,21 +56,34 @@ export default function Home() {
           Hubungi Kami
         </a>
       </header>
-      <div className="text-center bg-black text-white py-2">
+      <div className="text-center flex flex-row justify-center bg-black text-white py-2">
         <p>percayakan kebutuhan air bersih kepada kami!</p>
+        <a
+          // className="text-lg font-bold"
+          style={{
+            // fontSize: "24px",
+            // fontWeight: "bold",
+            color: "#FFC107",
+          }}
+          href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+          target="_blank"
+          className="rounded-md pl-2"
+        >
+          +62 813-2509-8909
+        </a>
       </div>
       <main className="relative">
         <img
-          src="https://images.pexels.com/photos/13826995/pexels-photo-13826995.png?auto=compress&cs=tinysrgb&w=600"
+          src="/air-bersih-gunung-ungaran-semarang.png"
           alt="Background"
           className="w-full h-96 rounded-lg object-cover"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
+        <div className="absolute overlay inset-0 flex flex-col items-center justify-center text-center p-4">
           <div className="filter text-wrap">
             <h1 className="text-5xl font-bold mt-8 heroTitle">
               Air Gunung Ungaran, Langsung dari Alam
             </h1>
-            <p className="heroSubtitle">
+            <p className="heroSubtitle ">
               Segarnya air pegunungan kini hadir di rumah Anda. Nikmati
               kesegaran alam Gunung Ungaran setiap hari
               {/* Sui delivers the benefits of{" "}
@@ -110,7 +123,7 @@ export default function Home() {
                 Untuk Gedung dan Proyek
               </h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20gedung%20dan%20proyek"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20gedung%20dan%20proyek"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -131,7 +144,7 @@ export default function Home() {
               </span> */}
               <h2 className="mt-2 text-xl font-bold">Untuk Rumah Makan</h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Rumah%20Makan"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Rumah%20Makan"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -152,7 +165,7 @@ export default function Home() {
               </span> */}
               <h2 className="mt-2 text-xl font-bold">Air Bersih Perumahan</h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Perumahan"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Perumahan"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -175,7 +188,7 @@ export default function Home() {
                 Untuk Depo Isi Ulang Air Minum
               </h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Isi%20Ulang%20Air%20Minum"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Isi%20Ulang%20Air%20Minum"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -198,7 +211,7 @@ export default function Home() {
                 Kebutuhan Air Bersih Pabrik
               </h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Pabrik"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20untuk%20Pabrik"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -219,7 +232,7 @@ export default function Home() {
               </span> */}
               <h2 className="mt-2 text-xl font-bold">Untuk Kolam Renang</h2>
               <a
-                href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20Kolam%20Renang"
+                href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih%20Kolam%20Renang"
                 target="_blank"
                 className="text-blue-400 mt-2 block"
               >
@@ -293,15 +306,51 @@ export default function Home() {
             Demak dan sekitarnya
           </p>
         </div>
-        <div className="flex justify-center space-x-8">
-          <a
-            href="https://wa.me/081325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+        <div className="flex flex-col items-center justify-center space-x-8">
+          {/* <a
+            href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
             className="hubungiKami text-white px-4 py-2 rounded-md"
             target="_blank"
             rel="noopener noreferrer"
           >
             Hubungi Kami
+          </a> */}
+          <a
+            href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+            target="_blank"
+            className="rounded-md pl-2"
+          >
+            Hubungi Kami
           </a>
+          <div className="flex gap-2">
+            <a
+              // className="text-lg font-bold"
+              style={{
+                // fontSize: "24px",
+                // fontWeight: "bold",
+                color: "#FFC107",
+              }}
+              href="https://wa.me/6281325098909?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+              target="_blank"
+              className="rounded-md pl-2"
+            >
+              +62 813-2509-8909
+            </a>
+            <a>/</a>
+            <a
+              // className="text-lg font-bold"
+              style={{
+                // fontSize: "24px",
+                // fontWeight: "bold",
+                color: "#FFC107",
+              }}
+              href="https://wa.me/6285712273231?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20air%20bersih"
+              target="_blank"
+              className="rounded-md"
+            >
+              +62 857-1227-3231
+            </a>
+          </div>
           {/* <img
             src="https://placehold.co/100x40"
             alt="Netmarble logo"
